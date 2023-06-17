@@ -2,7 +2,7 @@ import { createContext } from "react"
 
 interface IScrollContextProvider {
     scrollState?: IScrollState,
-    setScrolleState?: Function
+    setScrollState?: Function
 }
 
 interface IScrollState {
